@@ -1,0 +1,28 @@
+html{ /*html 배경 색*/
+    background-color: #00539F;
+}
+
+.title{
+    color:#00539F;
+    text-align:center; /*타이틀  가운데 정렬*/
+    text-shadow: 3px 3px 3px black; /*타이틀 그림자 */
+    font-size: 40pt;  /*폰트 크기*/
+    font-weight: bold; /*폰트 굵기*/
+}
+
+.image{ /*이미지 가운데 정렬 */
+    text-align:center;
+}
+
+.bodyborder{
+
+    width: 600px;  /*바디 너비*/
+    border: 5px solid black;  /*바디 테두리 실선 사이즈 5 , 블랙*/
+    background-color: #FF9500; /*바디 바탕색 */
+    padding: 20px 20px 20px 20px; /*바디 안쪽 여백*/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    margin: 0 auto; /*바디 바깥쪽 여백*/
+}
+
+.text1{ /*글자 자간*/
+    line-height: 2;
+} 
