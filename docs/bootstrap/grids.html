@@ -9,6 +9,44 @@
     <link rel="stylesheet" href="../css/commons.css">
 </head>  
 <body>
+<div class="container-fluid mt-3">    
+  <div class="row"> <!--col 4개 만든거와 co1-3이랑 똑같음 12개이므로-->
+    <div class="col-6 bg-primary text-white row">
+        <div class="col bg-dark">bg-dark</div>
+        <div class="col bg-success">bg-success</div>
+    </div>
+
+    <div class="col-3 bg-dark text-white">custom</div>
+    <div class="col-3 bg-primary text-white">
+        <img dlass="auto_width" src="../images/paris.jpg" alt="">
+    </div>
+    <div class="col-3 bg-dark text-white">custom</div>
+  </div>
+  <!-- Control the column width, and how they should appear on different devices -->
+  <div class="row">
+    <div class="col-sm-6 bg-primary text-white">50%</div>
+    <div class="col-sm-6 bg-dark text-white">50%</div>
+  </div>
+  <br>
+    
+  <div class="row">
+    <div class="col-sm-4 bg-primary text-white">33.33%</div>
+    <div class="col-sm-4 bg-dark text-white">33.33%</div>
+    <div class="col-sm-4 bg-primary text-white">33.33%</div>
+  </div>
+  <br>
+
+  <!-- Or let Bootstrap automatically handle the layout -->
+  <div class="row">
+    <div class="col-sm bg-primary text-white">25%</div>
+    <div class="col-sm bg-dark text-white">25%</div>
+    <div class="col-sm bg-primary text-white">25%</div>
+    <div class="col-sm bg-dark text-white">25%</div>
+  </div>
+  <br>
+
+<hr>
+
     <div class="container">
         <div class="row">
             <div class="col">Line 1 of the poem</div>
