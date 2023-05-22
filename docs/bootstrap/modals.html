@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap modals</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="../css/commons.css">
+</head>  
+<body>
+    <!--부트스트랩 모달창(팝업창) 중앙오기-->
+    <div class="container">
+        <div class="fs-3">Center</div> <!-- fs-3 : 폰트사이즈 3 -->
+        <a data-bs-toggle="modal" href="#modalTarget-center" class="btn btn-primary">Center Button</a>
+        <div class="modal" id="modalTarget-center"> <!--href와 id 연결/ 모달창이 1개이상일 수 있어 id 설정함-->
+            <div class="modal-dialog modal-dialog-centered"><!--centered 가운데 생성-->
+                <div class="modal-content">
+                    <div class="modal-header">헤더</div>
+                    <div class="modal-body">Center 입력 부분</div>
+                    <div class="modla-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button> <!--data-bs-dismiss: 모달닫기-->
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+
+    <!--부트스트랩 스크롤 scroll-->
+    <div class="container">
+        <div class="fs-3">Scroll</div> <!-- fs-3 : 폰트사이즈 3 -->
+        <a data-bs-toggle="modal" href="#scrollTarget-first" class="btn btn-primary">Scroll Button</a>
+        <div class="modal" id="scrollTarget-first"> 
+            <div class="modal-dialog modal-dialog-scrollable"><!--scrollable :  내용만 스크롤하기-->
+                <div class="modal-content">
+                    <div class="modal-header">헤더</div>
+                    <div class="modal-body">
+                            스크롤 부분
+                            공공은 소프트웨어(SW) 업계에 주요 시장이다. 소프트웨어정책연구소에 따르면 우리나라 SW 시장에서 공공은 △금융 △통신 △제조에 이어 네 번째 규모다. 특히 신생기업이나 중소기업에 공공 시장이 차지하는 의미는 크다. 기술력과 보안이 중요한 공공 도입 사례를 확보하면 민간 진출에도 긍정적 영향을 미쳐서다.
+
+                            20여년 전 우리나라 공공 시장은 대기업 위주였다. 당시 전자정부 사업이 추진되면서 대형 프로젝트가 쏟아졌고 대기업이 이 시장을 장악하면서 중견, 중소기업 설자리가 줄었다.
+
+                            정부는 이를 바로 잡고자 ‘중소SW기업 참여 지원 제도’를 2004년부터 시행했다. 그럼에도 대기업 위주 시장 구도가 바뀌지 않자 2012년 상호출자제한기업(대기업) 참여를 전면 제한하는 제도를 시행했다. 지난 10년간 제도는 대기업 참여를 일부 허용하는 방향으로 완화됐으나 최근 제도 전면 폐지 의견이 제기되는 등 제도를 둘러싼 논란이 다시 시작됐다.
+
+                            ◇왜 ‘대기업참여제한’ 고강도 처방을 택했나
+
+                            2012년 정부와 국회가 대기업참여제한 제도라는 극단적 방법을 선택한 배경은 불공정한 SW 시장환경을 정상화시키자는 공감대가 형성돼서다.
+
+                            당시 SW산업 환경은 상호출자제한 기업집단 소속 IT서비스 기업이 내부계열사 일감 몰아주기, 수의계약 등 편법으로 SW생태계를 교란시킨다는 중소·중견기업 지적이 이어졌다. 대기업 계열사는 전체 매출 가운데 내부거래 비율이 50￣70% 가량에 이를 정도로 민간 시장을 독식하면서 공공도 40% 이상 시장을 가져갔다.
+
+                            이런 가운데 대기업은 공공사업 수주 시 중소·중견기업에 업무 80￣90% 정도를 도급으로 넘기고 사업금액은 평균 60% 가량을 가져가는 등 불공정 관행이 극에 달했다.
+
+                            정부와 국회는 대기업 단가 후려치기로 고통받는 중소기업에 기회를 주고 중소·중견기업이 성장해 건전한 SW산업 생태계를 구축해야한다는 분위기가 조성됐다. 대기업 자본에 의한 저가투찰 등 고질적 병폐로 왜곡된 공공SW시장을 바로 잡아 지속가능한 SW생태계를 건설하고자 하는 목적이 컸다.
+
+                            대기업 참여제한 제도 도입, 강화 및 완화 경과. 과기정통부 제공
+                            <대기업 참여제한 제도 도입, 강화 및 완화 경과. 과기정통부 제공>
+                            ◇제도 시행 10년, 완화 분위기 속 존폐 논란 불거져
+
+                            제도 시행 3년차인 2015년 클라우드, 인공지능(AI) 등 신기술 분야에 한해 대기업 참여를 허용하면서 일부 완화 기조로 바뀌었다. 대기업이 해외진출 어려움 등을 호소하자 2020년 12월에는 △신시장 창출과 대·중소기업 동반해외진출 가능 사업 △긴급 장애대응이 필요한 공공 사업 △민간 투자형 사업 등으로 대기업 참여 분야를 확대했다.
+
+                            과기정통부는 2년 전 제도 전반 점검 등을 거쳐 대·중견·중소기업 상생 환경이 안착되고 SW기업 간 하도급 분쟁도 감소했다고 발표했다. 다만 당시 국무조정실 규제챌린지 등 논의를 거쳐 △긴급발주가 필요한 경우 대기업 참여제한 예외 사업 심의 신속처리제(패스트트랙) △대규모 공공사업의 경우 신규사업 정보를 미리 공개하는 중기단위 수요예보제 등을 추가 도입키로 했다.
+
+                            이후 잠잠했던 논의가 다시 시작된 것은 총리실 산하 규제혁신추진단이 올초부터 검토를 시작하면서부터다. 추진단이 의견 수렴에 나서자 대기업과 중견·중소기업 의견도 나뉜다. 중소·중견기업은 각각 협의회를 구성해 정리된 업계 의견을 정부와 국회 등에 전달 중이다.
+
+                            대기업 관계자는 “참여 자체를 막는 제도는 유례를 찾기 어려운 규제”라며 “공공 사례 확보 등을 통해 해외 시장 진출 기회를 모색해야한다”는 입장이다.
+
+                            중견기업 관계자는 “이 제도는 규제가 아니라 중소·중견기업 상생을 위한 지원 정책”이라며 “정책 효과가 하나둘 나타나는 상황에서 정책을 폐지한다면 10년 전 상황으로 되돌아가는 것을 의미한다”고 반박한다.  
+                    </div>
+                    <div class="modla-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button> <!--data-bs-dismiss: 모달닫기-->
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+    
+    <!--부트스트랩 팝업modal-->
+    <div class="container">
+        <div class="fs-3">Basic</div> <!-- fs-3 : 폰트사이즈 3 -->
+        <a data-bs-toggle="modal" href="#modalTarget-first" class="btn btn-primary">Modal Button</a>
+        <div class="modal" id="modalTarget-first"> <!--href와 id 연결/ 모달창이 1개이상일 수 있어 id 설정함-->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">헤더</div>
+                    <div class="modal-body">실제 내용 입력 부분</div>
+                    <div class="modla-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button> <!--data-bs-dismiss: 모달닫기-->
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
